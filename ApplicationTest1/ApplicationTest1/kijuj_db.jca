@@ -1,0 +1,14 @@
+<adapter-config name="kijuj" adapter="Database Adapter" wsdlLocation="kijuj.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  
+  <connection-factory location="eis/DB/Connection_Int_T1" UIConnectionName="T1_CONN_INTEGRA" adapterRef=""/>
+  <endpoint-interaction portType="kijuj_ptt" operation="kijujSelect">
+    <interaction-spec className="oracle.tip.adapter.db.DBReadInteractionSpec">
+      <property name="DescriptorName" value="kijuj.Bs23RegistryTable"/>
+      <property name="QueryName" value="kijujSelect"/>
+      <property name="MappingsMetaDataURL" value="kijuj-or-mappings.xml"/>
+      <property name="ReturnSingleResultSet" value="false"/>
+      <property name="GetActiveUnitOfWork" value="false"/>
+    </interaction-spec>
+  </endpoint-interaction>
+
+</adapter-config>

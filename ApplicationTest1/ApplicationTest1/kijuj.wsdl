@@ -1,0 +1,25 @@
+<?binding.jca kijuj_db.jca?>
+<wsdl:definitions name="kijuj" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/ApplicationTest1/ApplicationTest1/kijuj" xmlns:tns="http://xmlns.oracle.com/pcbpel/adapter/db/ApplicationTest1/ApplicationTest1/kijuj" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:plt="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:top="http://xmlns.oracle.com/pcbpel/adapter/db/top/kijuj">
+    <plt:partnerLinkType name="kijuj_plt">
+        <plt:role name="kijuj_role">
+            <plt:portType name="tns:kijuj_ptt"/>
+        </plt:role>
+    </plt:partnerLinkType>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <import namespace="http://xmlns.oracle.com/pcbpel/adapter/db/top/kijuj" schemaLocation="xsd/kijuj_table.xsd"/>
+        </schema>
+    </wsdl:types>
+    <wsdl:message name="kijujSelect_inputParameters">
+        <wsdl:part name="kijujSelect_inputParameters" element="top:kijujSelectInputParameters"/>
+    </wsdl:message>
+    <wsdl:message name="Bs23RegistryTableCollection_msg">
+        <wsdl:part name="Bs23RegistryTableCollection" element="top:Bs23RegistryTableCollection"/>
+    </wsdl:message>
+    <wsdl:portType name="kijuj_ptt">
+        <wsdl:operation name="kijujSelect">
+            <wsdl:input message="tns:kijujSelect_inputParameters"/>
+            <wsdl:output message="tns:Bs23RegistryTableCollection_msg"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

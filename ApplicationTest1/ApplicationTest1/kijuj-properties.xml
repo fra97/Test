@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+   <entry key="root_descriptor_alias">BS23_REGISTRY_TABLE</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_HISTORY:db_column_type">CHAR</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_12">CHECK_HISTORY</entry>
+   <entry key="BS23_REGISTRY_TABLE.PREPAY_STATUS:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_11">PREPAY_STATUS</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_table_type">TABLE</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_10">CHECK_FULL_NAME</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_STATUS:db_column_type">VARCHAR2</entry>
+   <entry key="BS23_REGISTRY_TABLE.SOURCE_ACCOUNT_NUMBER:db_column_precision">0</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_HISTORY:db_column_size">1</entry>
+   <entry key="BS23_REGISTRY_TABLE.ID:db_column_not_null">true</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_TIME:db_column_type">DATE</entry>
+   <entry key="BS23_REGISTRY_TABLE.EXTRACT_SESSION:db_column_type">NUMBER</entry>
+   <entry key="BS23_REGISTRY_TABLE.ID:db_column_type">VARCHAR2</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_STATUS:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_STATUS:db_column_size">30</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_STATUS:db_column_type">VARCHAR2</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_STATUS:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_TIME:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_FULL_NAME:db_column_type">CHAR</entry>
+   <entry key="BS23_REGISTRY_TABLE.ID:db_column_size">255</entry>
+   <entry key="BS23_REGISTRY_TABLE.EXTRACT_SESSION:db_column_precision">0</entry>
+   <entry key="BS23_REGISTRY_TABLE.EFFECTIVE_DATE:db_column_type">DATE</entry>
+   <entry key="BS23_REGISTRY_TABLE.PREPAY_STATUS:db_column_type">VARCHAR2</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_STATUS:db_column_size">30</entry>
+   <entry key="BS23_REGISTRY_TABLE.SOURCE_ACCOUNT_NUMBER:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_FULL_NAME:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_ACCOUNT_FIO:db_column_type">VARCHAR2</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_FULL_NAME:db_column_size">1</entry>
+   <entry key="return_single_result_set">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.EFFECTIVE_DATE:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.EXTRACT_SESSION:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.PREPAY_STATUS:db_column_size">30</entry>
+   <entry key="BS23_REGISTRY_TABLE.SOURCE_ACCOUNT_BRANCH:db_column_type">VARCHAR2</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_9">CHECK_ACCOUNT_FIO</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_8">EXTRACT_SESSION</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_7">PROCESS_TIME</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_ACCOUNT_FIO:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_MODE:db_column_type">VARCHAR2</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_6">PROCESS_STATUS</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_MODE:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_5">CHECK_STATUS</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_4">EFFECTIVE_DATE</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_ACCOUNT_FIO:db_column_size">1</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_3">PROCESS_MODE</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_2">SOURCE_ACCOUNT_BRANCH</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_1">SOURCE_ACCOUNT_NUMBER</entry>
+   <entry key="BS23_REGISTRY_TABLE.SOURCE_ACCOUNT_BRANCH:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE:db_column_0">ID</entry>
+   <entry key="BS23_REGISTRY_TABLE.SOURCE_ACCOUNT_NUMBER:db_column_type">NUMBER</entry>
+   <entry key="BS23_REGISTRY_TABLE.CHECK_HISTORY:db_column_not_null">false</entry>
+   <entry key="BS23_REGISTRY_TABLE.SOURCE_ACCOUNT_BRANCH:db_column_size">10</entry>
+   <entry key="BS23_REGISTRY_TABLE.PROCESS_MODE:db_column_size">1</entry>
+</properties>

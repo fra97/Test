@@ -1,0 +1,8 @@
+но€ 22, 2017 5:19:52 PM oracle.mds
+NOTIFICATION: Ёкземпл€р PManager создан без возможности поддержки нескольких участников, т. к. не установлен флаг JVM "oracle.multitenant.enabled" дл€ поддержки нескольких участников.
+но€ 22, 2017 5:19:52 PM oracle.security.jps.internal.config.xml.XmlConfigurationFactory initDefaultConfiguration
+SEVERE: java.io.FileNotFoundException: .\config\jps-config.xml (—истеме не удаетс€ найти указанный путь)
+но€ 22, 2017 5:19:52 PM oracle.mds
+NOTIFICATION: јудит отключен дл€ компонента MDS.
+но€ 22, 2017 5:19:52 PM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+INFO: XMLSchema incremental build enabled.

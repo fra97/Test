@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!--
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  Oracle JDeveloper BPEL Designer 
+  
+  Created: Fri Nov 24 15:13:13 MSK 2017
+  Author:  Roman
+  Type: BPEL 2.0 Process
+  Purpose: Empty BPEL Process
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+<process name="ChunkedFileReadProcess"
+               targetNamespace="http://xmlns.oracle.com/AppChunkedRead/AppChunkedRead/ChunkedFileReadProcess"
+               xmlns="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
+               xmlns:client="http://xmlns.oracle.com/AppChunkedRead/AppChunkedRead/ChunkedFileReadProcess"
+               xmlns:ora="http://schemas.oracle.com/xpath/extension"
+               xmlns:bpel="http://docs.oasis-open.org/wsbpel/2.0/process/executable"
+         xmlns:ns1="http://xmlns.oracle.com/pcbpel/adapter/file/AppChunkedRead/AppChunkedRead/PickupFile"
+         xmlns:ns2="http://xmlns.oracle.com/pcbpel/adapter/file/AppChunkedRead/AppChunkedRead/SynchChunkedFileRead">
+
+  <!-- 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+     ORCHESTRATION LOGIC                                               
+     Set of activities coordinating the flow of messages across the    
+     services integrated within this business process                  
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  -->
+  <partnerLinks>
+    <partnerLink name="PickupFile" partnerLinkType="ns1:Read_plt"
+                 myRole="Read_role"/>
+    <partnerLink name="SynchChunkedFileRead" partnerLinkType="ns2:SynchRead_plt"
+                 partnerRole="SynchRead_role"/>
+  </partnerLinks>
+  <sequence name="main">
+  </sequence>
+</process>
