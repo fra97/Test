@@ -282,7 +282,7 @@
          </list>
          <list n="url-path">
             <url path="src/"/>
-            <url path="SCA-INF\src/"/>
+            <url path="SCA-INF/src/"/>
          </list>
       </hash>
    </hash>
