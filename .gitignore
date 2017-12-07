@@ -1,6 +1,3 @@
-#groovy for bank cds-project
-s*_1.0.0_jenkins.groovy
-
 #compile
 **/client/module/classes
 **/target
@@ -11,7 +8,8 @@ client/.data/
 
 #soa composite files
 *-Target.xml
-.designer
+**/.designer
+**/deploy
 **/SCA-INF
 
 #auto-test
