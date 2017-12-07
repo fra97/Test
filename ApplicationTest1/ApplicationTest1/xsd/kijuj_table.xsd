@@ -11,7 +11,7 @@
          <xs:element name="id">
             <xs:simpleType>
                <xs:restriction base="xs:string">
-                  <xs:maxLength value="255"/>
+                  <xs:maxLength value="250"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:element>
@@ -19,7 +19,7 @@
          <xs:element name="sourceAccountBranch" minOccurs="0" nillable="true">
             <xs:simpleType>
                <xs:restriction base="xs:string">
-                  <xs:maxLength value="10"/>
+                  <xs:maxLength value="100"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:element>
