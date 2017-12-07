@@ -29,7 +29,7 @@
 	a logical service unit.
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-	<!-- portType implemented by the BPELProcess1 BPEL process -->
+	<!-- portType implemented by the BPELProcess1 B P E L process -->
 	<wsdl:portType name="BPELProcess1">
 		<wsdl:operation name="process">
 			<wsdl:input  message="client:BPELProcess1RequestMessage" />
