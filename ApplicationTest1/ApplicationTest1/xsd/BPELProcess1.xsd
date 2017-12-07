@@ -7,7 +7,7 @@
 		<complexType>
 			<sequence>
 				<element name="input" type="string"/>
-				<!--element name="input3" type="string"/-->
+				<!--element name="input4" type="string"/-->
 			</sequence>
 		</complexType>
 	</element>

@@ -11,7 +11,7 @@
          <xs:element name="id">
             <xs:simpleType>
                <xs:restriction base="xs:string">
-                  <xs:maxLength value="255"/>
+                  <xs:maxLength value="25"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:element>
@@ -19,14 +19,14 @@
          <xs:element name="sourceAccountBranch" minOccurs="0" nillable="true">
             <xs:simpleType>
                <xs:restriction base="xs:string">
-                  <xs:maxLength value="10"/>
+                  <xs:maxLength value="1"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:element>
          <xs:element name="processMode" minOccurs="0" nillable="true">
             <xs:simpleType>
                <xs:restriction base="xs:string">
-                  <xs:maxLength value="1"/>
+                  <xs:maxLength value="10"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:element>
@@ -34,7 +34,7 @@
          <xs:element name="checkStatus" minOccurs="0" nillable="true">
             <xs:simpleType>
                <xs:restriction base="xs:string">
-                  <xs:maxLength value="30"/>
+                  <xs:maxLength value="35"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:element>
